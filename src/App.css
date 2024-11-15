@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+.container {
+  padding: 10px;
+}
+
+.form-testimonial-row {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+@media (min-width: 768px) {
+  .form-testimonial-row {
+    flex-direction: row;
+  }
+  .form-card, .testimonial-section {
+    max-width: 500px;
+  }
+}
